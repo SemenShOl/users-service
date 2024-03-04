@@ -15,7 +15,8 @@
     "watch": "tsc -w",
     "dev": "npx nodemon --inspect ",
     "lint": "npx eslint ./src/index.ts",
-    "format": "npx eslint ./src/index.ts --fix"
+    "format": "npx eslint ./src/index.ts --fix",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
