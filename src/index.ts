@@ -7,5 +7,8 @@ let a;
 app.get("/", (req, res) => {
   res.send("HI ,world");
 });
+app.get("/user", (req, res) => {
+  res.send("This is user");
+});
 
 app.listen(port, () => console.log(`Port ${port} is listening...`));
